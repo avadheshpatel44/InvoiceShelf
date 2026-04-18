@@ -9,6 +9,9 @@
     "type": "project",
     "require": {
         "php": "^8.4",
+      "ext-exif": "*",
+    "ext-zip": "*",
+    "laravel/framework": "^11.0",
         "barryvdh/laravel-dompdf": "^v3.0",
         "dragonmantank/cron-expression": "^v3.4",
         "gotenberg/gotenberg-php": "^2.8",
