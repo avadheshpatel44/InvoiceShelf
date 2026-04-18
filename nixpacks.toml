@@ -1,0 +1,5 @@
+[phases.setup]
+nixPkgs = ["...", "php84Extensions.exif", "php84Extensions.zip"]
+
+[phases.install]
+cmds = ["composer install --ignore-platform-reqs --optimize-autoloader"]
